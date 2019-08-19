@@ -1,0 +1,3 @@
+img_tag = document.getElementsByTagName('img')
+
+for (int i = 2 ; i < img_tag.length ; i++) { downloadImage(img_tag[i],'results'+(i-1)+'.png') }
